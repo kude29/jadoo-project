@@ -1,5 +1,4 @@
-import React from "react";
-import "./Subscribe.css";
+import "./subscribe.css";
 
 function Subscribe() {
   return (

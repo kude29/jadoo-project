@@ -1,29 +1,56 @@
-import React from 'react'
-import './Testimonials.css'
-const Testimonials = () => {
-  return (
-    <div className='comment'>
-        <div>
-            <p className="small-title">TESTIMONIALS</p>
-            <h2 className="main-title">What People Say<br />About Us.</h2>
-        </div>
-        <div className="testimonials">
-            <div className="testimonial">
-                <p className="testimonial-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
-                <p className="testimonial-author">- John Doe</p>
-            </div>
-            <div className="testimonial">
-                <p className="testimonial-text">"Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
-                <p className="testimonial-author">- Jane Smith</p>
-            </div>
-            <div className="testimonial">
-                <p className="testimonial-text">"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."</p>
-                <p className="testimonial-author">- Bob Johnson</p>
-            </div> 
-          
-        </div>
-    </div>
-  )
-}
+import React, { useState } from 'react';
+import './Testimonials.css';
 
-export default Testimonials
+const testimonials = [
+  {
+    name: "Mike Taylor",
+    location: "Lahore, Pakistan",
+    quote: "On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.",
+    image: "src/assets/images/Image.png" // Replace with real image URL
+  },
+  {
+    name: "Chris Thomas",
+    location: "CEO of Red Button",
+    quote: "This is a second sample testimonial showing carousel behavior.",
+    image: "src/assets/images/Image.png" // Replace with real image URL
+  },
+  {
+    name: "Chris Thomas",
+    location: "CEO of Red Button",
+    quote: "Best airways ever. Sure last upon he same as knew next. Of believed or diverted no ",
+    image: "src/assets/images/Image.png" // Replace with real image URL
+  }
+];
+
+export default function Testimonials() {
+  const [index, setIndex] = useState(0);
+
+  const handleNext = () => {
+    setIndex((prev) => (prev + 1) % testimonials.length);
+  };
+
+  const handlePrev = () => {
+    setIndex((prev) => (prev - 1 + testimonials.length) % testimonials.length);
+  };
+
+  const { name, location, quote, image } = testimonials[index];
+
+  return (
+    <div className="testimonials-container">
+     <div>
+           <p>TESTIMONIALS</p>
+      <h2 className="section-title">What People Say <br />About Us.</h2>
+     </div>
+      <div className="testimonial-card">
+        <img src={image} alt={name} className="testimonial-image" />
+        <p className="testimonial-quote">“{quote}”</p>
+        <p className="testimonial-name">{name}</p>
+        <p className="testimonial-location">{location}</p>
+        <div className="testimonial-controls">
+          <button onClick={handlePrev}>&uarr;</button>
+          <button onClick={handleNext}>&darr;</button>
+        </div>
+      </div>
+    </div>
+  );
+}

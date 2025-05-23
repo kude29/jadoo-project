@@ -2,14 +2,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #f9f9f9;
+  background-color: white;
   padding: 40px 100px;
+  
 }
 
 .subscribe-box {
   background: #cec7eb41;
   padding: 80px;
-  border-radius: 16px;
+  border-top-left-radius: 80px;
+  border-bottom-right-radius: 80px;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
   width: 100%;
   text-align: center;

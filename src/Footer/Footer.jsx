@@ -30,6 +30,7 @@ const Footer = () => {
           <a href="#">Affiliates</a>
           </div>
         </div>
+        
 
         <div className="column">
           <h4>More</h4>

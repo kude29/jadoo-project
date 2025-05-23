@@ -22,6 +22,7 @@ const Homepage = () => {
           Preferred to sportsmen it engrossed listening. Park gate<br />
           sell they west hard for the.
         </p>
+
         <div className="buttons">
           <button className="find">
             Find out more
