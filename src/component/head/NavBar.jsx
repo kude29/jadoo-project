@@ -9,7 +9,7 @@ import './NavBar.css'
 function NavBar() {
   return (
     <div className='header'>
-      <Navbar expand="lg" className="bg-body-tertiary">
+      <Navbar expand="lg" className="">
       <Container>
         <Navbar.Brand className='brand'  href="#home"><img src="public/images/Logo.png" alt="" /></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
