@@ -11,7 +11,7 @@ function NavBar() {
     <div className='header'>
       <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
-        <Navbar.Brand className='brand'  href="#home"><img src="src/assets/images/Logo.png" alt="" /></Navbar.Brand>
+        <Navbar.Brand className='brand'  href="#home"><img src="public/images/Logo.png" alt="" /></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto d-flex gap-5">

@@ -48,7 +48,7 @@ const BookingPage = () => {
           <div className='TripDiv '>
             <div className='TripDiv-Img mb-3'>
               <div className='div'>
-                <img src="src/assets/images/Rectangle 17.jpg"/>
+                <img src="public/images/Rectangle 17.jpg"/>
               </div>
             </div>
             <div className='container d-flex flex-column'>
@@ -69,7 +69,7 @@ const BookingPage = () => {
               <div className='Trip-rome-con '>
                 <div className='d-flex Trip-rome container '>
                   <div>
-                    <img src="src/assets/images/Mask Group.png" alt="" />
+                    <img src="public/images/Mask Group.png" alt="" />
                   </div>
 
                   <div className='container'>

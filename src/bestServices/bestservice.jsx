@@ -3,23 +3,23 @@ import './bestservice.css'; // Import your CSS file for styles
 
 const services = [
   {
-    icon: 'src/assets/images/Group 48.png',
+    icon: 'public/images/Group 48.png',
     title: 'Calculated Weather',
     text:' Built Wicket longer admire do barton vanity itself do in it.',
   },
   {
-    icon: 'src/assets/images/plane copy.png',
+    icon: 'public/images/plane copy.png',
     title: 'Best Flights',
     text: 'Engrossed listening. Park gate sell they west hard for the.',
     highlight: true, // used for extra styling
   },
   {
-    icon: 'src/assets/images/Group 50.png',
+    icon: 'public/images/Group 50.png',
     title: 'Local Events',
     text: 'Barton vanity itself do in it. Prefer to men it engrossed listening.',
   },
   {
-    icon: 'src/assets/images/Group 49.png',
+    icon: 'public/images/Group 49.png',
     title: 'Customization',
     text: 'We deliver outsourced aviation services for military customers',
   },

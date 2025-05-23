@@ -6,19 +6,18 @@ const testimonials = [
     name: "Mike Taylor",
     location: "Lahore, Pakistan",
     quote: "On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.",
-    image: "src/assets/images/Image.png" // Replace with real image URL
+    image: "public/images/Image.png" // Replace with real image URL
   },
   {
     name: "Chris Thomas",
     location: "CEO of Red Button",
     quote: "This is a second sample testimonial showing carousel behavior.",
-    image: "src/assets/images/Image.png" // Replace with real image URL
+    image: "public/images/Image.png" // Replace with real image URL
   },
   {
     name: "Chris Thomas",
     location: "CEO of Red Button",
-    quote: "Best airways ever. Sure last upon he same as knew next. Of believed or diverted no ",
-    image: "src/assets/images/Image.png" // Replace with real image URL
+    quote: "public/images/Image.png" // Replace with real image URL
   }
 ];
 

@@ -37,7 +37,7 @@ const Homepage = () => {
       {/* Right Side - Image */}
       <div className="relative">
         <img
-          src="src/assets/images/Traveller 1.png"
+          src="public/images/Traveller 1.png"
           alt="Traveling girl with suitcase"
           className="traveller-image"
         />

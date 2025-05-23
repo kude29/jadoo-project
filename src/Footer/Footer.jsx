@@ -44,14 +44,14 @@ const Footer = () => {
 
       <div className="footer-right">
         <div className="socials">
-          <div className="icon"><img src="src/assets/images/Facebook Icon.png" alt="" /></div>
-          <div className="icon1"><img src="src/assets/images/instagram 1.png" alt="" /></div>
-          <div className="icon"><img src="src/assets/images/Vector.png" alt="" /></div>
+          <div className="icon"><img src="public/images/Facebook Icon.png" alt="" /></div>
+          <div className="icon1"><img src="public/images/instagram 1.png" alt="" /></div>
+          <div className="icon"><img src="public/images/Vector.png" alt="" /></div>
         </div>
         <p className="discover-text">Discover our app</p>
         <div className="store-buttons">
-          <img src="src/assets/images/Google Play.png" alt="Google Play" />
-          <img src="src/assets/images/Play Store.png" alt="Apple Store" />
+          <img src="public/images/Google Play.png" alt="Google Play" />
+          <img src="public/images/Play Store.png" alt="Apple Store" />
         </div>
       </div>
 
